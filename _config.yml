@@ -1,0 +1,26 @@
+# Jekyll site configuration
+title: "Tataouinea Blog"
+description: "A place for ideas, experiments, and stories"
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Minima date format
+minima:
+  date_format: "%b %-d, %Y"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
